@@ -10,7 +10,7 @@ import Keyboard4Img from "../../assets/keyboard4.png";
 const products = [
   {
     id: 1,
-    name: "Keyboard 1",
+    name: "Detox 1",
     imageSrc: Keyboard1Img.src,
     rating: 5,
     numReviews: 10,
@@ -18,7 +18,7 @@ const products = [
   },
   {
     id: 2,
-    name: "Keyboard 2",
+    name: "Detox 2",
     imageSrc: Keyboard2Img.src,
     rating: 5,
     numReviews: 8,
