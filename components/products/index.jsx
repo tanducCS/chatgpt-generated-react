@@ -14,7 +14,7 @@ const products = [
     imageSrc: Keyboard1Img.src,
     rating: 5,
     numReviews: 10,
-    price: 30.000,
+    price: 25.000,
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const products = [
     imageSrc: Keyboard2Img.src,
     rating: 5,
     numReviews: 8,
-    price: 25.000,
+    price: 30.000,
   },
 ];
 
@@ -33,7 +33,7 @@ const ProductCard = ({ product }) => {
         <img
           src={product.imageSrc}
           alt={product.name}
-          className="w-3/4 h-full object-cover"
+          className="w-full h-full object-cover"
         />
       </div>
       <div className="p-4 flex-grow">
