@@ -6,7 +6,7 @@ const LandingSection = () => {
     <section className="flex flex-row justify-center items-center py-16 px-6">
       <div className="flex flex-col justify-center items-center mr-6">
         <h1 className="text-4xl font-bold text-gray-900">
-          Keyboard<span className="text-cyan-500">r</span>
+          ZenDeto<span className="text-cyan">x</span>
         </h1>
         <h2 className="text-lg text-gray-700 mb-8">
           Pick the Right typing Sound

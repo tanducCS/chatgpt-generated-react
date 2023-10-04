@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="flex items-center">
           <Link href="/" legacyBehavior>
             <a className="text-2xl font-bold text-gray-900 cursor-pointer">
-              Keyboard<span className="text-cyan">r</span>
+              ZenDeto<span className="text-cyan">x</span>
             </a>
           </Link>
         </div>

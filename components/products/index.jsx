@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { Rating } from "../rating";
 
-import Keyboard1Img from "../../assets/keyboard1.png";
-import Keyboard2Img from "../../assets/keyboard2.png";
+import Keyboard1Img from "../../assets/img1.jpg";
+import Keyboard2Img from "../../assets/img2.jpg";
 import Keyboard3Img from "../../assets/keyboard3.png";
 import Keyboard4Img from "../../assets/keyboard4.png";
+
 
 const products = [
   {
@@ -13,7 +14,7 @@ const products = [
     imageSrc: Keyboard1Img.src,
     rating: 5,
     numReviews: 10,
-    price: 99.99,
+    price: 30.000,
   },
   {
     id: 2,
@@ -21,39 +22,7 @@ const products = [
     imageSrc: Keyboard2Img.src,
     rating: 5,
     numReviews: 8,
-    price: 129.99,
-  },
-  {
-    id: 3,
-    name: "Keyboard 3",
-    imageSrc: Keyboard3Img.src,
-    rating: 5,
-    numReviews: 6,
-    price: 79.99,
-  },
-  {
-    id: 4,
-    name: "Keyboard 4",
-    imageSrc: Keyboard2Img.src,
-    rating: 5,
-    numReviews: 12,
-    price: 149.99,
-  },
-  {
-    id: 5,
-    name: "Keyboard 5",
-    imageSrc: Keyboard3Img.src,
-    rating: 5,
-    numReviews: 9,
-    price: 119.99,
-  },
-  {
-    id: 6,
-    name: "Keyboard 6",
-    imageSrc: Keyboard4Img.src,
-    rating: 5,
-    numReviews: 7,
-    price: 89.99,
+    price: 25.000,
   },
 ];
 
@@ -64,7 +33,7 @@ const ProductCard = ({ product }) => {
         <img
           src={product.imageSrc}
           alt={product.name}
-          className="w-full h-full object-cover"
+          className="w-3/4 h-full object-cover"
         />
       </div>
       <div className="p-4 flex-grow">
@@ -76,7 +45,7 @@ const ProductCard = ({ product }) => {
           </span>
         </div>
         <p className="text-black font-medium text-lg mt-auto">
-          ${product.price.toFixed(2)}
+          {product.price.toFixed(3)}đ
         </p>
       </div>
     </div>
